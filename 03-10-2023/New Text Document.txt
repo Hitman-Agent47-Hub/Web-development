@@ -10,3 +10,9 @@ make sure the right path in git bash is set to your desired folder.
 4. Make a version of the repository by using "git commit"
          It is a good practice to add a message with commits so use 
                 "git commit -m "message " "
+
+5. create an account on git hub.com
+
+6. create a new repository in git hub
+
+7. copy path of that repository

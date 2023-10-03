@@ -1,0 +1,105 @@
+h1 {
+    color:blue;
+    text-align: center;
+}
+marquee {
+    color: green;
+    padding-left: 470px;
+    font-size: large;
+    font: bold 20px Times New Roman;
+}
+body {
+    background-image: url(./grey\ background.jpg) ;
+}
+h2 {
+    color:purple;
+    text-align: center;
+}
+#a1 {
+    color:black;
+    background-color: blueviolet;
+    display: inline-block;
+    margin-left: 460px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+#a2 {
+    color: purple;
+    background-color: white;
+    display: inline-block ;
+    margin-left: 10px;
+}
+#a3 {
+    color: purple;
+    background-color: burlywood;
+    display: inline-block;
+    margin-left: 30px;
+}
+caption {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+table{
+    margin: auto;
+    margin-top: 120px;
+    width: 500px;
+    height: 0px;
+  }
+  #d1 {
+    background-color: blue;
+    padding-left: 30px;
+    width:table;
+    height:40px;
+    text-align: center;
+  }
+  #d2 {
+    background-color: background-color;
+    text-align: center;
+    width:table;
+    padding-left: 30px;
+    height:30px;
+  }
+
+#r1{
+    background-color: rgb(11, 205, 11);
+    width: 30px;
+    height: 60px;
+}
+#r2{
+    background-color: rgb(244, 244, 115);
+    width: 30px;
+    height: 70px;
+}
+#r3{
+    background-color: rgb(244, 244, 115);
+    width: 30px;
+    height: 70px;
+}
+#r4{
+    background-color: rgb(244, 244, 115);
+    width: 30px;
+    height: 70px;
+}
+#r5{
+    background-color: rgb(244, 244, 115);
+    width: 30px;
+    height: 70px;
+}
+#r6{
+    background-color: rgb(244, 244, 115);
+    width: 30px;
+    height: 70px;
+}
+#s2{
+    padding:10px;
+}
+
+ tr,th,td{
+    border: 1px solid black;
+    margin-left: 450px;
+    margin-top: 100px;
+    padding:15px;
+  }
+ 
+    

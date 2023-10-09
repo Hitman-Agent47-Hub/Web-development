@@ -1,0 +1,31 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    gap: 10px;
+}
+.cont-1{
+    display: flex;
+    flex-direction: row;
+    background-color: #ff8989;
+    padding: 60px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.cont-2{
+    display: flex;
+    background-color: #88ff87;
+    padding: 150px;
+    height: 26vh;
+}
+.cont-3{
+    display: flex;
+    background-color: #8887ff;
+    padding: 230px;
+    width: 35vw;
+}

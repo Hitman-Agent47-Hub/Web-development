@@ -1,0 +1,18 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text{
+    border: 2px solid brown ;
+    width:300px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* text-overflow: clip; */
+    text-overflow: ellipsis;
+}
+.text:hover{
+    overflow: visible;
+}
+.vert{
+    writing-mode: vertical-rl;
+    text-shadow: 0 0 30px greenyellow;
+}

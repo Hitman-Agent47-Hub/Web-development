@@ -1,0 +1,22 @@
+.mypage{
+    color:chartreuse;
+    background-color: lightseagreen;
+    padding: 20px;
+}
+.mypage:hover{
+background-color: black;
+}
+a{
+    color: hotpink;
+}
+.mybutton:hover{
+    background-color:chartreuse;
+    color:#d5ff;
+}
+.wrapper:{
+    background-color:aqua;
+color: darkturquoise;
+} 
+.mybutton{
+    background-color: aqua;
+}

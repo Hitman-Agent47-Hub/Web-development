@@ -1,0 +1,12 @@
+/* #blog h1 {
+    color: lightseagreen;
+}
+#blog>h1 {
+    color: blue;
+} */
+/* h1 ~ p{
+    color: chartreuse;
+} */
+h1 + p{
+    color: dodgerblue;
+}

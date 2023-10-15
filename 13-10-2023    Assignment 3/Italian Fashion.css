@@ -1,3 +1,73 @@
 .main-container{
-    background-color: white;
+    display: grid;
+    background-color: #ffffff;
 }
+header{
+    display: grid;
+    background-color: #ffffff;
+    font-family: ;
+}
+#p1{
+    display: grid;
+    background-color:#ffffff;
+    color: #2b343d;
+    padding-left: 75vw;
+    font-weight: bold;
+    font-family:
+}
+.cont-1{
+    display: grid;
+    background-color: #2b343d;
+    padding: 130px;
+    grid-template-columns: repeat(3,auto);
+}
+p{
+    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#p2{
+    color: #576976;
+    font-size:x-large;
+    margin-right:px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cont-2{
+display: grid;
+background-color: #ffffff;
+padding: 10px;
+grid-template-columns: repeat(5,30px);
+ 
+
+} 
+section{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.cont-3{
+    display: grid;
+    background-color: #ccced0;
+    padding: 100px;
+    width: 30vw;
+    margin-left: 10px;
+}
+.cont-4{
+    display: grid;
+    background-color: #ccced0;
+    padding: 100px;
+    width: 30vw;
+    margin:10px;
+}
+
+#section{
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-rows: repeat(4,1fr) ;
+    
+}
+.cont-5{
+    display: grid;
+    background-color: #ccced0;
+    padding: 100px;
+    width: 30vw;
+} 

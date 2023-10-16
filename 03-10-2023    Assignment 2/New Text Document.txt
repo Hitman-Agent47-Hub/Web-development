@@ -1,0 +1,18 @@
+Git Setup
+
+1. open git bash in the desired main folder,by right click and select open git bash here.
+make sure the right path in git bash is set to your desired folder.
+
+2. initialize an empty git repository by using command "git init"
+
+3. Track all the changes by using "git add ."
+
+4. Make a version of the repository by using "git commit"
+         It is a good practice to add a message with commits so use 
+                "git commit -m "message " "
+
+5. create an account on git hub.com
+
+6. create a new repository in git hub
+
+7. copy path of that repository

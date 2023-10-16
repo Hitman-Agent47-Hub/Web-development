@@ -1,34 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .main-container{
     display: grid;
     background-color: #ffffff;
+    grid-template-columns: auto auto auto;
 }
 header{
-    display: grid;
+    display: flex;
     background-color: #ffffff;
-    font-family: ;
+    padding-left: 30px;
+    align-items: end;
+    justify-content: space-between; 
+    gap: 10px;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
-#p1{
-    display: grid;
+.h{
+    display: flex;
     background-color:#ffffff;
+    gap: 30px;
+    justify-content: end;
+    /* align-items: end; */
     color: #2b343d;
-    padding-left: 75vw;
+    padding-right: 2vw; 
     font-weight: bold;
     font-family:
 }
 .cont-1{
     display: grid;
+    display: flex; 
+    justify-content: space-between;
+    padding-right: 6vw;  
     background-color: #2b343d;
-    padding: 130px;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
 }
-p{
+
+ #s2{
     color: #ffffff;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-#p2{
-    color: #576976;
     font-size:x-large;
-    margin-right:px;
+    /* padding-left: 20px; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+#s3{
+    color: #576976;
+    font-size:larger;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .cont-2{
@@ -42,14 +60,29 @@ grid-template-columns: repeat(5,30px);
 section{
     display: grid;
     grid-gap: 20px;
+    grid-template-rows: repeat(2,1fr);
 }
-
+#s1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
+    grid-gap: 20px;
+}
 .cont-3{
     display: grid;
     background-color: #ccced0;
     padding: 100px;
     width: 30vw;
     margin-left: 10px;
+}
+#s5{
+    font-size: xx-large;
+    
+
+
+}
+#p1{
+
 }
 .cont-4{
     display: grid;
@@ -58,16 +91,24 @@ section{
     width: 30vw;
     margin:10px;
 }
-
-#section{
-    display: grid;
-    /* grid-template-columns: repeat(2,1fr); */
-    grid-template-rows: repeat(4,1fr) ;
-    
-}
 .cont-5{
+    display: grid;
+    background-color: #ccced0; 
+    padding: 100px;
+    width: 30vw;
+    margin-left: 10px;
+} 
+.cont-6{
     display: grid;
     background-color: #ccced0;
     padding: 100px;
     width: 30vw;
-} 
+    margin-left: 10px;
+}
+footer{
+    margin-left: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#s4{
+    color: maroon;
+}

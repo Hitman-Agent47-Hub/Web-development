@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 .main-container{
     display: grid;
     background-color: #ffffff;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3,1fr);
 }
 header{
     display: flex;
@@ -57,12 +57,8 @@ grid-template-columns: repeat(5,30px);
  
 
 } 
+
 section{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-rows: repeat(2,1fr);
-}
-#s1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,auto);
@@ -71,15 +67,12 @@ section{
 .cont-3{
     display: grid;
     background-color: #ccced0;
-    padding: 100px;
-    width: 30vw;
+    /* padding: 100px; */
+    /* width: 30vw; */
     margin-left: 10px;
 }
 #s5{
     font-size: xx-large;
-    
-
-
 }
 #p1{
 
@@ -87,23 +80,32 @@ section{
 .cont-4{
     display: grid;
     background-color: #ccced0;
-    padding: 100px;
-    width: 30vw;
-    margin:10px;
+    /* padding: 100px; */
+    /* width: 30vw; */
+    margin-right:10px;
+}
+#s6{
+    font-size: xx-large;
 }
 .cont-5{
     display: grid;
     background-color: #ccced0; 
-    padding: 100px;
-    width: 30vw;
+    /* padding: 100px; */
+    /* width: 30vw; */
     margin-left: 10px;
 } 
+#s7{
+    font-size: xx-large;
+}
 .cont-6{
     display: grid;
     background-color: #ccced0;
-    padding: 100px;
-    width: 30vw;
-    margin-left: 10px;
+    /* padding: 100px; */
+    /* width: 30vw; */
+    margin-right: 10px;
+}
+#s8{
+    font-size: xx-large;
 }
 footer{
     margin-left: 10px;

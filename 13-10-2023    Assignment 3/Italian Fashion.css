@@ -10,7 +10,7 @@ body{
 header{
     display: flex;
     background-color: #ffffff;
-    padding-left: 30px;
+    padding-left: 30px; 
     align-items: end;
     justify-content: space-between; 
     gap: 10px;
@@ -49,18 +49,19 @@ header{
     font-size:larger;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.cont-2{
+/* .cont-2{
 display: grid;
 background-color: #ffffff;
 padding: 10px;
 grid-template-columns: repeat(5,30px);
-} 
+}  */
 
 section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,auto);
     grid-gap: 20px;
+    margin-top: 20px;
 }
 .cont-3{
     display: grid;
@@ -79,8 +80,8 @@ section{
 .cont-4{
     display: grid;
     background-color: #ccced0;
-    padding-left: 10px;
-    margin-right:10px;
+    margin-right:10px; 
+    padding: 20px;
 }
 #s6{
     font-size: xx-large;
@@ -88,8 +89,7 @@ section{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
  #d2{
-    padding-left: 10px;
-    margin-bottom: 30px;
+     padding-left: 10px;
 } 
 .cont-5{
     display: grid;

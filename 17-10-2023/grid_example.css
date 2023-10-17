@@ -1,0 +1,28 @@
+.main-con{
+    display: grid;
+    grid-template-rows: 40px 400px 40px 1fr 75px;
+}
+.con1{
+    background-color: green;
+    grid-template-columns: 200px 1fr;
+}
+.con1-1{
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+}
+.con1-2-nav{
+    background-color:#2A33ca;
+}
+.con2{
+    background-color: yellow;
+}
+.con3{
+    background-color: blue;
+}
+.con4{
+    background-color: red;
+}
+.con5{
+    background-color: lightcoral;
+}

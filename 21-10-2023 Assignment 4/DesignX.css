@@ -92,6 +92,10 @@ a.active,a:hover{
     }
     #check:checked ~ul{
         left: 0;
-    }
-    
+    }  
+}
+section{
+    background: url(./p8.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
 }

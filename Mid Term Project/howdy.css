@@ -1,0 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: grid;
+    background-color: #0082e3;
+    padding: 40px;
+}

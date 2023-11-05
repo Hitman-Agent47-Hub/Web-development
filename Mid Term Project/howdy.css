@@ -1,8 +1,55 @@
-html{
-    scroll-behavior: smooth;
+*{
+    left: 0;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
-header{
+.main-cont{
+     display: grid;
+     grid-template-rows: 70px 400px 200px; 
+}
+.con1{
     display: grid;
-    background-color: #0082e3;
-    padding: 40px;
+    grid-template-columns: 20vw 14vw 25vw 1fr;
+    background-color: blue;
+}
+.con1-1{
+    background-position: right;
+    /* background-color: darkorange;  */
+    background-image: url(./nav.img.webp);
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    cursor: pointer;
+}
+.con1-2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 500;
+    /* background-color: #008ed0; */
+}
+#arrow{
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.con1-3{
+    display: flex;
+    align-items: center;
+    /* background-color: deeppink; */
+}
+#location{
+    height: 15px;
+    cursor: pointer;
+}
+.con1-4{
+    background-color: hotpink;
+}
+.con2{
+    background-color: chartreuse;
+}
+.con3{
+    background-color: aqua;
 }

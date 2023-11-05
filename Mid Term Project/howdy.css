@@ -1,16 +1,16 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Roboto&display=swap');
 
 *{
     left: 0;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .main-cont{
      display: grid;
-     grid-template-rows: 70px 400px 200px; 
+     grid-template-rows: 70px 400px 400px ; 
 }
 .con1{
     display: grid;
@@ -41,6 +41,7 @@
 }
 #s1{
     cursor: pointer;
+    font-size: small;
 }
 
 .con1-3{
@@ -58,11 +59,11 @@
     align-items: center;
     justify-content: space-between;
     padding-right: 60px;
-    font-size: medium;
     /* background-color: hotpink; */
 }
 a{
     text-decoration: none;
+    font-size: small;
     font-weight: 500;
     color: black;
 }
@@ -119,5 +120,72 @@ button{
     cursor: pointer;
 }
 .con3{
-    background-color: aqua;
+    display: grid;
+    background-color: black;
+}
+.con3-img{
+    background-color: transparent;
+    margin: auto;
+}
+.footer-img{
+    height: 120px;
+    width: 100px;
+    background-color: transparent;
+}
+.con3-2{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin: auto;
+    font-size: small;
+    background-color: black;
+}
+ #s2{
+    background-color: transparent;
+     color: #ffffff; 
+     cursor: pointer;
+}
+.con3-3{
+    display: flex;
+    justify-content: center; 
+    background-color: transparent;
+    width: 100%;
+}
+.con3-3-img1{
+    height: 45px;
+    width: 60px;
+    background-color: transparent;
+}
+.con3-3-img2{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+}
+.con3-4{
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 0;
+    margin-right: 0;
+    flex-direction: row;
+    align-items: end;
+    background-color: transparent;
+    border: 1px solid rgb(45, 45, 45);
+}
+.con3-4-1{
+    height:;
+    display: flex;
+    width: 90%;
+    padding-top: 17px;
+    margin: auto;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    background-color: transparent;
+
+}
+#s3{
+    background-color: transparent;
+    color: white;
+    font-size: small;
 }

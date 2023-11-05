@@ -1,8 +1,12 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     left: 0;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .main-cont{
      display: grid;
@@ -11,7 +15,8 @@
 .con1{
     display: grid;
     grid-template-columns: 20vw 14vw 25vw 1fr;
-    background-color: blue;
+    border: 1px solid rgb(206 206 206);
+    /* background-color: blue; */
 }
 .con1-1{
     background-position: right;
@@ -34,10 +39,14 @@
     margin-right: 5px;
     cursor: pointer;
 }
+#s1{
+    cursor: pointer;
+}
 
 .con1-3{
     display: flex;
     align-items: center;
+    font-size: small;
     /* background-color: deeppink; */
 }
 #location{
@@ -45,10 +54,25 @@
     cursor: pointer;
 }
 .con1-4{
-    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+    font-size: medium;
+    /* background-color: hotpink; */
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+#cart{
+    height: 30px;
+    cursor: pointer;
 }
 .con2{
-    background-color: chartreuse;
+     background-color: chartreuse; 
 }
 .con3{
     background-color: aqua;

@@ -12,6 +12,11 @@
      display: grid;
      grid-template-rows: 70px 250px 400px; 
 }
+.con0{
+    display: flex;
+    padding: 5px;
+    background-color: black; 
+}
 .con1{
     display: grid;
     grid-template-columns: 20vw 14vw 25vw 1fr;
@@ -79,6 +84,7 @@ a{
      margin-top: 30px;
      line-height: 2;
 }
+
 .Form-Wrap{
     display: grid;
     margin: auto;
@@ -90,7 +96,7 @@ a{
     display: grid;
     margin: auto; 
     gap: 15px;
-    width: 360px;
+    width: 370px;
 }
 .Email,.Password{
     display: flex;
@@ -121,7 +127,7 @@ label{
     font-size: small;
     color: #7f8080;
     background-color: transparent;
-     padding-left: 10px;     
+    margin-left: 10px;     
 }
  .Login{
     display: flex;
@@ -223,7 +229,7 @@ font-size: smaller;
 }
 .footer-img{
     height: 120px;
-    width: 100px;
+    width: 90px;
     background-color: transparent;
 }
 .con3-2{
@@ -300,10 +306,30 @@ font-size: smaller;
     color: white;
     font-size: small;
 }
-@media screen (max-width:991) {
-    .con1-2{
-        display: flex;
-    
+@media (max-width:992) {
+    .con1-4{
+        display: none;
+    }
+    .con1-2,.con1-3{
+        display: inline-flex;
+        align-items:flex-start;
+        justify-content: center;
+    }
+    .con1-1{
+        display: inline-flex;
+        align-items: end;
+        justify-content: center;
+    }
+    .checkbtn{
+        display: inline-flex;
+        left: 0;
+    }
+    #cart{
+        display: inline-flex;
+    }
+    .Form-Wrap{
+        display: block;
+        margin: auto;
     }
     
 }

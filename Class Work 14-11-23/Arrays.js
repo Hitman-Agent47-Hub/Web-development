@@ -1,7 +1,7 @@
-// var train1=["wheat", "barley", "potato" ,"salt" ,"rocks"];
-// console.log(train1[3]);
-// console.log(train1);
-// console.log(typeof(train1));
+var train1=["wheat", "barley", "potato" ,"salt" ,"rocks"];
+console.log(train1[3]);
+console.log(train1);
+console.log(typeof(train1));
 
 
 function listArrayItems(arr){

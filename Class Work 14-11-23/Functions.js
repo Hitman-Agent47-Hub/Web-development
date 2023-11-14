@@ -11,3 +11,4 @@ function addTwoNums1(x,z) {
     console.log(y);
 }
 addTwoNums1(2,2);
+

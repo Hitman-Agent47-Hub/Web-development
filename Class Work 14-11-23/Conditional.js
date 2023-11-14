@@ -6,7 +6,7 @@ if(result>40){
         console.log("Unfortunately you did not pass.");
     }
 //------------------------------------------------------
-    var food="hot";
+    var food="cold";
     if(food=="hot"){
         console.log("Too hot!");
     }
@@ -16,3 +16,20 @@ if(result>40){
     else{
         console.log("Just right");
     }
+    //--------------------------------------------------------
+
+    var place= "first";
+switch(place){
+    case'first':
+    console.log("Gold");
+    break;
+    case 'second':
+        console.log("Silver");
+        break;
+        case 'third':
+            console.log("Bronze");
+            break;
+            default:
+                console.log('No Medal');
+                
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: #ff0238;
+    margin: 0;
+    padding:0;
+
+}
+.main-cont{
+    display: grid;
+    place-items: center;
+   
+}
+.App{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}

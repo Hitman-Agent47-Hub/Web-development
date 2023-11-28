@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My To do App</title>
+    <link rel="stylesheet" href="./javascript_in_html1.css">
 </head>
 <body>
-    <input id="todo-title" type="text">
-    <input id="date-picker" type="date">
-    <button onclick="addtodo();">Add todo</button>
-    <div id="todo-list"></div>
+    <div class="main-cont">
+        <div class="App">
+            <div class="App1">
+                <input id="todo-title" type="text">
+            </div>
+            <div class="App2">
+                <input id="date-picker" type="date">
+            </div>
+           <div class="App3">
+            <button onclick="addtodo();">Add todo</button>
+           </div>
+            <div id="todo-list"></div>
+        </div>
+    </div>
+    
     <script>
         let todos;
         const saved456=JSON.parse(localStorage.getItem('todos'));

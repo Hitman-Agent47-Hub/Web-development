@@ -1,15 +1,14 @@
-var clothes=[];
-clothes.push("sweat shirt");
-clothes.push("T-shirt");
-clothes.push("Pants");
-clothes.push("Tie");
-clothes.push("Jacket");
-console.log(clothes.pop());
-console.log(clothes);
-console.log(clothes.push("coat"));
-console.log(clothes);
+// var clothes=[];
+// clothes.push("sweat shirt");
+// clothes.push("T-shirt");
+// clothes.push("Pants");
+// clothes.push("Tie");
+// clothes.push("Jacket");
+// console.log(clothes.pop());
+// console.log(clothes);
+// console.log(clothes.push("coat"));
+// console.log(clothes);
 //----------------------------------------------------------------
-//Javascript methods
 var i;
 var car={};
 car.mileage=98765;

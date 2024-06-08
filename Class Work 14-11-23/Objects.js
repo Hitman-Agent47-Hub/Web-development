@@ -22,7 +22,7 @@ var drone={
     color:"red",
 }
 for(var i=0;i<arrOfKeys.length;i++){
-    console.log(drone[arrOfKeys[i]]);
+    console.log(drone,[arrOfKeys[i]]);
 }
 //------------------------------------------------------------
 var fruits=[];

@@ -10,7 +10,7 @@
 }
 .main-cont{
     display: grid;
-    grid-template-rows: 150px 250px 400px; 
+    grid-template-rows: 70px 250px 400px; 
 }
 .con0{
     display: flex;

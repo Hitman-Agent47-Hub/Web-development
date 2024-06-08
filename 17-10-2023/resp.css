@@ -1,0 +1,15 @@
+.main-con{
+    display: grid;
+    background-color: greenyellow;
+}
+.con1{
+    background-color: purple;
+
+}
+.con2{
+    background-color: pink;
+}
+.con3{
+    background-color: lightslategray;
+}
+.con4{}

@@ -51,6 +51,12 @@ section{
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.con-4{
+    display: flex;
+    background-color: #8887ff;
+    padding: 130px;
+    width: 34vh;
+}
 footer{
     display: flex;
     flex-direction: row;

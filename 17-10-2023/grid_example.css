@@ -1,7 +1,11 @@
-.main-con{
-    display: grid;
-    grid-template-rows: 40px 400px 40px 1fr 75px;
+@media screen (max-width: 661px;){
+
+    .main-con{
+        display: grid;
+        grid-template-rows: 100px 400px 40px 1fr 75px;
+    }
 }
+    
 .con1{
     background-color: green;
     grid-template-columns: 200px 1fr;
@@ -12,6 +16,7 @@
     /* justify-content: center; */
 }
 .con1-2-nav{
+    display: flex;
     background-color:#2A33ca;
 }
 .con2{

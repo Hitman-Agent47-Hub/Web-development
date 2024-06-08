@@ -40,6 +40,11 @@ a.active,a:hover{
     background-color: #1b9bff;
     transition: .5s;
 }
+a.active:hover{                                 
+    background-color: white;
+    color: #0082e6;
+}
+
 .checkbtn{
     font-size: 30px;
     color: white;
